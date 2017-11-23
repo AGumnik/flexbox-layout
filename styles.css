@@ -1,7 +1,6 @@
-*, *:before, *:after
-{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -15,9 +14,9 @@ html, body {
 .flex-column {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    align-items: stretch; 
-    align-content: stretch;                 
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
 }
 
 .flex-row {
@@ -34,18 +33,20 @@ header {
 
 footer {
     height: 10%;
-    background-color: darkblue;    
+    background-color: darkblue;
     color: #fff;
 }
 
 .sidebar {
     width: 15%;
     min-width: 15%;
-    background-color:darkgreen;
+    background-color: darkgreen;
     color: #fff;
 }
 
-.flexbox-item-grow {  flex: 1; }
+.flexbox-item-grow {
+    flex: 1;
+}
 
 .height-streched {
     height: 100%;
@@ -61,16 +62,16 @@ footer {
     width: 100%;
     height: 100%;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 .main__leftbar {
-    background-color:red;
+    background-color: red;
     color: #fff;
     width: 300px;
 }
 
 .main__content {
-    background-color:burlywood;
-    height: 100%;    
+    background-color: burlywood;
+    height: 100%;
 }
